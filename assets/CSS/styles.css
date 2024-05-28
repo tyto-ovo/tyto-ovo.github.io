@@ -1,4 +1,11 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: #7e8ef1;
+  color: #eeeeee;
+}
+.navegador {
+  background-color: #615efc;
+  position: sticky;
+}
+footer {
+  background-color: #615efc;
 }
