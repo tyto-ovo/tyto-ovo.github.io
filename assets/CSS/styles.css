@@ -14,10 +14,10 @@ body {
   justify-content: center;
   padding: 100px;
   border: 1px;
-  border-color: #D1D8C5;
+  border-color: #d1d8c5;
 }
 .foto-proy {
-  max-width: 500px;
+  width: 500px;
 }
 .margen_func {
   height: 100px;
