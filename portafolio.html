@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio</title>
+    <title>Pruba final de Introduccion</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,48 +12,57 @@
   </head>
   <body>
     <header class="container-fluid">
-      <nav class="navbar navegador navbar-expand-lg" data-bs-theme="dark">
-        <div class="container">
-          <a class="navbar-brand origen" href="./index.html">Sara Jolly Parker</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Educacion</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Experiencia Laboral</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Otros Conocimientos</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-disabled="false"
-                  href="./portafolio.html"
-                  target="_blank"
-                  >Portafolio</a
-                >
-              </li>
-            </ul>
+        <nav class="navbar navegador navbar-expand-lg" data-bs-theme="dark">
+          <div class="container">
+            <a class="navbar-brand origen" href="./index.html">Sara Jolly Parker</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#educacion"
+                    >Educacion</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#exp">Experiencia Laboral</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#otro">Otros Conocimientos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-disabled="false" href="./portafolio.html">Portafolio</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
-    <main></main>
+        </nav>
+      </header>
+    <main>
+        <table class="tabla">
+            <tr>
+                <th>Proyecto</th>
+                <th></th>
+            </tr>
+            <tr><td>El primer desafío fue un curriculum bastante burdo</td>
+            <td><img src="./assets/imgs/d1_CV1.jpg" alt="Screenshot del CV" class="foto-proy"></td></tr>
+            <tr><td>Luego una página donde se vendía algún producto</td>
+            <td><img src="./assets/imgs/d2_pesas1.png" alt="Proyecto pesas " class="foto-proy"></td></tr>
+            <tr><td>Una página siguiendo las indicaciónes de un cliente y con una maqueta en especifico</td>
+            <td><img src="./assets/imgs/d3_iguana1.png" alt="proyecto iguana" class="foto-proy"></td></tr>
+            <tr><td>Crear una pagina con Bootstrap y gran cantidad de sus herramientas</td>
+            <td><img src="./assets/imgs/d4_Cupones.png" alt="Página de cupones" class="foto-proy"></td></tr>
+        </table>
+    </main>
     <footer class="contenedor">
       <div class="info">
         <div>REDES SOCIALES</div>
@@ -74,4 +81,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-</html>
+  </html>

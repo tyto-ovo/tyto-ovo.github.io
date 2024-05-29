@@ -8,6 +8,20 @@ body {
   width: 100%;
   position: fixed;
 }
+
+.tabla {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  border: 1px;
+  border-color: #D1D8C5;
+}
+.foto-proy {
+  max-width: 500px;
+}
+.margen_func {
+  height: 100px;
+}
 .origen {
   font-size: 30px;
 }
@@ -24,6 +38,9 @@ body {
 .contenedor {
   display: flex;
   justify-content: center;
+}
+.espa {
+  gap: 100px;
 }
 
 .info {
