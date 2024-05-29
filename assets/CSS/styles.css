@@ -4,7 +4,19 @@ body {
 }
 .navegador {
   background-color: #615efc;
-  position: sticky;
+  font-size: 20px;
+}
+.origen {
+  font-size: 30px;
+}
+.titulo1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.texto1 {
+  margin-left: 20px;
+  font-size: 30px;
 }
 
 .contenedor {
@@ -26,7 +38,7 @@ footer {
   display: flex;
   background-color: #615efc;
   width: 100%;
-  position: absolute;
+ /*  position: absolute; */
   justify-content: space-between;
   bottom: 0;
   text-align: center;
