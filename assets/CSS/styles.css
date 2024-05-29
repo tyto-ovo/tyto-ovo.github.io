@@ -10,13 +10,17 @@ body {
 .contenedor {
   display: flex;
   justify-content: center;
-
 }
 
 .info {
   margin-left: 50px;
   margin-right: 50px;
 }
+/* 
+.portafolio {
+  height: 20 px;
+  color: #eeeeee;
+} */
 
 footer {
   display: flex;
