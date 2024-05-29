@@ -6,6 +6,24 @@ body {
   background-color: #615efc;
   position: sticky;
 }
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+
+}
+
+.info {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 footer {
+  display: flex;
   background-color: #615efc;
+  width: 100%;
+  position: absolute;
+  justify-content: space-between;
+  bottom: 0;
+  text-align: center;
 }
